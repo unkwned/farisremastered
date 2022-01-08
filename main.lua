@@ -31,17 +31,17 @@ library.theme = {
     bordercolor = Color3.fromRGB(60, 60, 60),
     accentcolor = Color3.fromRGB(28, 56, 139),
     accentcolor2 = Color3.fromRGB(16, 31, 78),
-    outlinecolor = Color3.fromRGB(60, 60, 60),
-    outlinecolor2 = Color3.fromRGB(0, 0, 0),
-    sectorcolor = Color3.fromRGB(30, 30, 30),
+    outlinecolor = Color3.fromRGB(122, 0, 2),
+    outlinecolor2 = Color3.fromRGB(122, 0, 2),
+    sectorcolor = Color3.fromRGB(122, 0, 2),
     toptextcolor = Color3.fromRGB(255, 255, 255),
     topheight = 48,
     topcolor = Color3.fromRGB(30, 30, 30),
     topcolor2 = Color3.fromRGB(30, 30, 30),
     buttoncolor = Color3.fromRGB(49, 49, 49),
     buttoncolor2 = Color3.fromRGB(39, 39, 39),
-    itemscolor = Color3.fromRGB(200, 200, 200),
-    itemscolor2 = Color3.fromRGB(210, 210, 210)
+    itemscolor = Color3.fromRGB(122, 0, 2),
+    itemscolor2 = Color3.fromRGB(122, 0, 2)
 }
 
 function library:CreateWatermark(name, position)
