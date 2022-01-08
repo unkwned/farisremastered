@@ -29,8 +29,8 @@ library.theme = {
     backgroundcolor = Color3.fromRGB(215, 0, 255),
     tabstextcolor = Color3.fromRGB(240, 240, 240),
     bordercolor = Color3.fromRGB(60, 60, 60),
-    accentcolor = Color3.fromRGB(28, 56, 139),
-    accentcolor2 = Color3.fromRGB(16, 31, 78),
+    accentcolor = Color3.fromRGB(122, 0, 2),
+    accentcolor2 = Color3.fromRGB(122, 0, 2),
     outlinecolor = Color3.fromRGB(122, 0, 2),
     outlinecolor2 = Color3.fromRGB(122, 0, 2),
     sectorcolor = Color3.fromRGB(122, 0, 2),
@@ -72,7 +72,7 @@ function library:CreateWatermark(name, position)
 
     watermark.Gradient = Instance.new("UIGradient", watermark.mainbar)
     watermark.Gradient.Rotation = 90
-    watermark.Gradient.Color = ColorSequence.new({ ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 10)) })
+    watermark.Gradient.Color = ColorSequence.new({ ColorSequenceKeypoint.new(0.00, Color3.fromRGB(122, 0, 2)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 10)) })
 
     watermark.Outline = Instance.new("Frame", watermark.mainbar)
     watermark.Outline.Name = "outline"
